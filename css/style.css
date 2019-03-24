@@ -1,0 +1,348 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+body{
+    line-height: 1.8 !important;
+    font:400 15px lato,sans-serif;
+    color:#818181
+}
+
+/* Start Header Section */
+
+.header {   
+    background-color:#f4511e;
+    height:500px;
+}
+
+.logo{
+    float:left;
+    color:white;
+    font-weight: 300;
+    font-size:25px;
+    letter-spacing:2px;
+    padding:16px 15px;
+}
+
+.na-b{
+    width:100%;
+    background-color:#f4511e;
+    z-index:999
+}
+
+.fixed-top{
+    background-color:#f4511e
+}
+
+.nav-link {
+    color:white !important;
+    cursor:pointer;
+    transition:0.5s all ease-in-out;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px
+}
+
+.nav-link:hover{
+    background-color:white;
+    color:#f4511e !important;
+}
+
+.banner{
+    margin:150px auto;
+    width:600px;
+}
+.banner h1{
+    color:white;
+    font-size:65px;
+    font-weight:400px;
+    letter-spacing: 4px;
+}
+.banner p {
+    color:white;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+ 
+
+
+/* End Header Section */
+
+
+/* Start About Section */
+.about h2{
+    text-transform:uppercase;
+    margin-bottom:60px;
+    color:#303030;
+    margin-top:60px;
+}
+
+.about h4{
+    font-size:20px;
+    color:#303030;
+    margin-bottom:30px
+}
+
+.about p{
+    font-weight: 300;
+    color:gray;
+    margin-bottom: 60px;
+}
+
+.btn-light{
+    border:1px solid #818181;
+    padding: 10px 30px;
+    color:black
+}
+
+.btn-light:hover{
+    border:1px solid black;
+    background: gray;
+}
+
+.fa-signal ,
+.fa-globe-africa{
+    color:orangered;
+    width:100%;
+    font-size:200px;
+    line-height:350px;
+    margin: auto;
+}
+
+#dff{
+    background-color:rgb(216, 212, 212);
+}
+
+#bff
+.about span{
+    font-weight:bold;
+}
+/* End About Section */
+
+
+/* Start Service Section */
+.fas{
+    color:#f4511e;
+    padding:0 0 25px 0 ;
+}
+
+.he{
+    margin-bottom: 20px;
+    text-transform:uppercase;
+    font-weight:600;
+    font-size:24px;
+    letter-spacing: 1.5px
+}
+
+.qe{
+    color:#303030;
+    margin-bottom:30px;
+    font-weight:400;
+    font-size:19px;
+}
+.service h4{
+    color:black;
+    padding-bottom:15px;
+}
+
+.service p {
+    padding-bottom:10px;
+}
+/* End Service Section */
+
+/* Start Portfolio Section */
+
+#go{
+    width:100%;
+    background-color:#f6f6f6;
+    height:900px;
+}
+.portfolio{
+    width:100%;
+    height:100%;
+    margin-top:50px;
+    position: absolute;
+}
+
+.thumbnail{
+    width:100;
+    display:block;
+    height:100%;
+}
+
+.thumbnail img{
+    width:349px;
+    height:280px;
+    background-size:cover;
+    margin-bottom:15px;
+}
+
+.thumbnail strong {
+    font-weight: bold;
+    font-size:15px;
+}
+
+#sliders a{
+    color:#f4511e;
+}
+
+.carousel-indicators li {
+    border:1px solid black;
+    background-color:#f4511e
+}
+
+#wo {
+    margin-top: 50px;
+    color:#303030;
+    text-transform:uppercase;
+}
+
+.carousel-inner{
+    position:relative;
+    width:100%;
+    overflow:hidden;
+}
+
+.carousel-item h4{
+    line-height:1.5em;
+    font-size:19px;
+    font-style:italic;
+    margin:50px 0;
+    color:#505050
+}
+/* End Portfolio Section */
+
+#pricing{
+    width:100%;
+    margin-top:100px;
+    height:100%;
+    
+}
+
+.card{
+    width:100%;
+    border:1px solid #f4511e;
+    border-radius:1px;
+}
+.card-header{
+    background-color:#f4511e;
+    color:white;
+    height:120px;
+    border-radius:1px;
+    overflow: hidden
+}
+
+.card-header h2{
+    line-height:100px;
+    font-size:35px
+}
+
+.card-body span{
+    font-weight: bold;
+}
+
+.card-footer{
+    background-color:white;
+}
+
+.card-footer h3{
+    font-size:35px;
+}
+
+.card-footer p {
+    margin-bottom:40px;
+}
+
+.card-footer button{
+    background-color:#f4511e;
+    color:white;
+    
+}
+
+.he{
+    text-align:center
+}
+
+#map {
+    background-color:#f6f6f6;
+    margin-top:100px;
+    position: absolute;
+    
+}
+#bp{
+    margin-top:50px;
+}
+
+.footer {
+    position:relative;
+    margin-top:580px;
+}
+.footer img{
+    width:100%;
+    vertical-align: middle;
+    margin-bottom:100px;
+}
+
+
+.fa-chevron-up{
+    margin:auto;
+    width:100%;
+}
+
+.fa-map-marker-alt,
+.fa-mobile-alt,
+.fa-envelope
+{
+    color:gray
+}
+/* Start FramWork Section */
+
+.clear{
+    clear:both;
+}
+
+.about ,
+.service,
+.pricing,
+.ho{
+    padding:50px 50px;
+}
+
+.slideanim {
+    visibility:hidden;
+    visibility:visible\9;/*For old IE browsers IE6-8 */
+}
+.slideanim.slide {                  
+    visibility: visible;                  
+    animation: slide 1s;
+}
+.slideanim::after {
+    /* useful when its child elements are float:left; */
+    content: "";
+    display: table;
+    clear: both;
+}
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    } 
+}
+
+@media screen and (max-width:768px)
+{.btn-lg{
+    width:100%;
+}}
+
+@media screen and (max-width:768px)
+{
+    .container{
+        width:750px;
+    }
+}
+/* End FramWork Section */
